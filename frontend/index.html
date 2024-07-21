@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI UI Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Designs</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="prompt-section">
+            <h1>AI UI Designer</h1>
+            <p>Enter a prompt to generate a UI design:</p>
+            <textarea id="userPrompt" placeholder="Describe the UI you want..."></textarea>
+            <button id="submitPrompt">Generate Design</button>
+            <div id="designPreview"></div>
+            <div id="codePreview">
+                <h2>Generated Code</h2>
+                <pre id="htmlCode"></pre>
+                <pre id="cssCode"></pre>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AI UI Designer. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

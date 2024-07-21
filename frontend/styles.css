@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prompt-section {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.prompt-section textarea {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.prompt-section button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#designPreview {
+    margin-top: 2rem;
+}
+
+#codePreview {
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+pre {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
